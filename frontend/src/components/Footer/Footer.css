@@ -1,0 +1,48 @@
+.footer{
+    background-image: url('../../assets/footerBg.png');
+    height:30vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding: 50px 0 0;
+}
+
+.text-golden{
+    color :#FFCA0F;
+    font-size: 24px;
+}
+
+.mail{
+    font-size: 34px;
+}
+.bg-input-box{
+    background: rgba(203, 161, 10, 0.15);
+}
+.input{
+    font-size: 14px;
+    color: rgba(239, 197, 50, 0.5)
+}
+.input:focus-visible{
+    outline: 0;
+
+}
+::placeholder{
+    color: rgba(239, 197, 50, 0.5)
+}
+.line{
+    /* border-top:1px solid rgba(255, 243, 179, 0.28); */
+    color: #947509;
+    font-size: 20px;
+    margin-top: auto;
+}
+@media (max-width: 992px){
+    .text-golden{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .mail{
+        font-size: 24px;
+    }
+    .line{
+        font-size: 16px;
+    }
+}
