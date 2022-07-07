@@ -1,0 +1,83 @@
+.header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 111;
+}
+.border-blue {
+  border-top: 3px solid #2ea3f2;
+}
+.logo {
+  width: 170px;
+  height: 100px;
+}
+.staking{
+  color: #FFFFFF;
+  color: #f9e79f;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.pointer{
+  cursor: pointer;
+}
+.fa-brands{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.box{
+    border: 3px solid #FFFFFF;
+    border-radius: 12px;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.h-btn {
+  color: #f9e79f !important;
+  font-size: 14px;
+}
+.color-gold {
+  color: #f9e79f;
+}
+.search-icon {
+  transform: scaleX(-1);
+}
+.menu-color {
+  color: #2ea3f2;
+}
+.text-32 {
+  font-size: 32px;
+}
+.text-28 {
+  font-size: 18px;
+}
+.w-100vw {
+  width: 90vw;
+  margin: auto;
+}
+@media (max-width: 992px) {
+  .header-wrapper {
+    position: absolute;
+  }
+  .header {
+    width: 100%;
+  }
+  .text-28 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 576px) {
+  .text-28 {
+    font-size: 22px;
+  }
+
+  .text-32 {
+    font-size: 24px;
+  }
+}

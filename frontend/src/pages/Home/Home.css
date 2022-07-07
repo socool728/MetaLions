@@ -1,0 +1,138 @@
+.bg-image{
+    padding: 3% 0 0;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-text{
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+.gif-box{
+    background-image: url('../../assets/heroArea.gif');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: contain;
+    margin-left: auto;
+    background-position: right;
+}
+.sub-text{
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    margin-top: 17px;
+}
+.height-30{
+    height: 400px;
+}
+.width-50{
+    width: 40%;
+}
+.border-gold{
+    border: 2px solid gold;
+}
+.radius-36{
+    border-radius: 36px;
+}
+.shadow-l{
+  box-shadow: 0 3rem 3rem #ffbb0f31!important
+}
+.text-gold{
+    color: #FFCA0F;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+.rounded-13{
+    border-radius: 13px;
+}
+
+.text-20{
+    font-size: 20px;
+}
+.text-34
+{
+    font-size: 24px;
+    padding: 10%;
+}
+.text-24
+{
+    font-size: 20px;
+}
+.btn-outline-warning {
+    color: black !important;
+    background: #FFFFFF !important;
+    border-radius: 14px !important;
+    height: 60px !important;
+    width: 210px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 40px !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+.w-fitContent{
+    width: fit-content;
+}
+.w-200{
+    width: 250px;
+}
+.dropdown-toggle::after{
+    float: right;
+    margin-top: 10px;
+}
+.line{
+    border-top:1px solid rgba(255, 243, 179, 0.28);
+    color: #947509;
+    font-size: 20px;
+    margin-top: auto;
+}
+.color-text{
+    color: #947509;
+    font-size: 14px;
+}
+
+@media (max-width: 1300px){
+    .gif-box{
+        height: 300px;
+        width: 70% !important;
+        margin-left: auto;
+    }
+}
+@media (max-width: 992px){
+    .welcome-text{
+        line-height: 30px;
+        font-size: 1.3rem;
+    }
+    .gif-box{
+        height: 500px;
+        width: 100% !important;
+        margin-right: auto;
+        background-position: center;
+    }
+    .sub-text{
+        font-size: 0.95rem;
+    }
+    .text-gold{
+        font-size: 14px;
+    }
+    .text-20{
+        font-size: 16px;
+    }
+    .text-34{
+        font-size: 16px;
+        white-space: nowrap;
+        line-height: 0;
+    }
+    .text-24{
+        font-size: 18px;
+    }
+    .w-200{
+        width: 200px;
+    }
+}
